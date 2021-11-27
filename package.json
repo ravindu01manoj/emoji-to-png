@@ -1,0 +1,35 @@
+{
+  "name": "emoji-to-png-sew",
+  "version": "1.0.5",
+  "description": "Simple Emoji API",
+  "main": "sew/index.js",
+  "types": "sew/index.d.ts",
+  "files": ["sew"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindu01manoj/emoji-to-png.git"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "ravindu01manoj",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ravindu01manoj/emoji-to-png"
+  },
+  "homepage": "https://github.com/ravindu01manoj/emoji-to-png#readme",
+  "dependencies": {
+    "jsdom": "^17.0.0",
+    "node-fetch": "^2.6.2"
+  },
+  "devDependencies": {
+    "@favware/rollup-type-bundler": "^1.0.3",
+    "@types/jsdom": "^16.2.13",
+    "@types/node": "^16.9.2",
+    "@types/node-fetch": "^2.5.12",
+    "typescript": "^4.4.3"
+  }
+}
